@@ -1,1 +1,1 @@
-## Experiment name
+## To determine viscosity based on efflux time
