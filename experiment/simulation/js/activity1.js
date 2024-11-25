@@ -150,10 +150,11 @@ function load_higlighted_images() {
         [timer, timer],
     ];
     a1_labels = [
-        new Chemistry.Text("rect_tank", new Chemistry.Point(300, 100), canvas),
-        new Chemistry.Text("collecting_tank", new Chemistry.Point(800, 100), canvas),
-        new Chemistry.Text("timer", new Chemistry.Point(1400, 100), canvas),
+        new Chemistry.Text("rect_tank", new Chemistry.Point(300, 250), canvas),
+        new Chemistry.Text("collecting_tank", new Chemistry.Point(800, 250), canvas),
+        new Chemistry.Text("timer", new Chemistry.Point(1400, 300), canvas),
     ];
+    a1_labels.map(label => label.font = '22px Arial');
 }
 function a1_random_questions() {
     arrayofrandquestion = [];
